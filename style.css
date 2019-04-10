@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    color: rgba( 49, 21, 87,1);
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.county-interior :hover {
+  fill: black; 
+}
+
+.county-borders {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 0.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+
+.state-borders {
+  fill: none;
+  stroke: white;
+  stroke-width: 0.5px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+
+.state, .counties {
+    fill: black;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: black;
+    color: white;
+    border-radius: 0.5em;
+    padding: 0.75em;
+    text-align: left;
+    max-width: 15em;
+}
+
+svg {
+    background-color: white;
+    border-radius: 1em;
+}
+
+body {
+    /*background-color: rgba(143,120,173,0.5);*/
+}
+
+footer {
+    color: rgba( 49, 21, 87,1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-link {
+    text-decoration: none;
+    font-weight: bold;
+}
